@@ -19,6 +19,7 @@ import sys.FileSystem;
 #end
 import flixel.graphics.FlxGraphic;
 import openfl.display.BitmapData;
+import openfl.display3D.textures.Texture;
 
 import flash.media.Sound;
 
