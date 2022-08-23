@@ -44,7 +44,7 @@ class TankmenBG extends FlxSprite
 
 	override function update(elapsed:Float)
 	{
-		super.update(elapsed);
+		super.update(elapsed/2);
 
 		visible = (x > -0.5 * FlxG.width && x < 1.2 * FlxG.width);
 

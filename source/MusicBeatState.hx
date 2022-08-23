@@ -140,7 +140,7 @@ class MusicBeatState extends FlxUIState
 
 		if(FlxG.save.data != null) FlxG.save.data.fullscreen = FlxG.fullscreen;
 
-		super.update(elapsed);
+		super.update(elapsed/2);
 	}
 
 	private function updateBeat():Void

@@ -2149,7 +2149,7 @@ class DebugLuaText extends FlxText
 	}
 
 	override function update(elapsed:Float) {
-		super.update(elapsed);
+		super.update(elapsed/2);
 		disableTime -= elapsed;
 		if(disableTime <= 0) {
 			kill();

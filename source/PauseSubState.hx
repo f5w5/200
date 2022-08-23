@@ -152,7 +152,7 @@ class PauseSubState extends MusicBeatSubstate
 		if (pauseMusic.volume < 0.5)
 			pauseMusic.volume += 0.01 * elapsed;
 
-		super.update(elapsed);
+		super.update(elapsed/2);
 		updateSkipTextStuff();
 
 		var upP = controls.UI_UP_P;

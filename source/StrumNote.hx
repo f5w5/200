@@ -141,7 +141,7 @@ class StrumNote extends FlxSprite
 		//}
 		}
 
-		super.update(elapsed);
+		super.update(elapsed/2);
 	}
 
 	public function playAnim(anim:String, ?force:Bool = false) {

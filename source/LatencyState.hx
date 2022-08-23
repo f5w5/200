@@ -69,6 +69,6 @@ class LatencyState extends FlxState
 				daNote.kill();
 		});
 
-		super.update(elapsed);
+		super.update(elapsed/2);
 	}
 }

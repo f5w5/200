@@ -521,7 +521,7 @@ class TitleState extends MusicBeatState
 			if(controls.UI_RIGHT) swagShader.hue += elapsed * 0.1;
 		}
 
-		super.update(elapsed);
+		super.update(elapsed/2);
 	}
 
 	function createCoolText(textArray:Array<String>, ?offset:Float = 0)

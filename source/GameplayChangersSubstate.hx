@@ -331,7 +331,7 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 		if(nextAccept > 0) {
 			nextAccept -= 1;
 		}
-		super.update(elapsed);
+		super.update(elapsed/2);
 	}
 
 	function updateTextFrom(option:GameplayOption) {

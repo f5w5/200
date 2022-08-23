@@ -285,7 +285,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	{
 		if(ignoreThisFrame) {
 			ignoreThisFrame = false;
-			super.update(elapsed);
+			super.update(elapsed/2);
 			return;
 		}
 
@@ -451,7 +451,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				kill();
 			}
 		}
-		super.update(elapsed);
+		super.update(elapsed/2);
 	}
 
 	var lastCharacter:Int = -1;

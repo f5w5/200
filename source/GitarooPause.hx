@@ -77,7 +77,7 @@ class GitarooPause extends MusicBeatState
 			}
 		}
 
-		super.update(elapsed);
+		super.update(elapsed/2);
 	}
 
 	function changeThing():Void

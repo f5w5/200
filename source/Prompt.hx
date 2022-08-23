@@ -100,7 +100,7 @@ class Prompt extends MusicBeatSubstate
 	/*
 	override public function update(elapsed:Float):Void 
 	{
-		super.update(elapsed);
+		super.update(elapsed/2);
 		
 		
 		

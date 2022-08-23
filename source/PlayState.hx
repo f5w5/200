@@ -2741,7 +2741,7 @@ class PlayState extends MusicBeatState
 			}
 		}
 
-		super.update(elapsed);
+		super.update(elapsed/2);
 
 		scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName;
 		if(ratingName != '?')

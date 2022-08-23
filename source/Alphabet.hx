@@ -358,7 +358,7 @@ class Alphabet extends FlxSpriteGroup
 			}
 		}
 
-		super.update(elapsed);
+		super.update(elapsed/2);
 	}
 
 	public function killTheTimer() {

@@ -262,7 +262,7 @@ class MainMenuState extends MusicBeatState
 			}
 		}
 
-		super.update(elapsed);
+		super.update(elapsed/2);
 
 		menuItems.forEach(function(spr:FlxSprite)
 		{

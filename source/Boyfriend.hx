@@ -38,6 +38,6 @@ class Boyfriend extends Character
 			}
 		}
 
-		super.update(elapsed);
+		super.update(elapsed/2);
 	}
 }

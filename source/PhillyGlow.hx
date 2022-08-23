@@ -37,7 +37,7 @@ class PhillyGlowParticle extends FlxSprite
 				scale.set(originalScale * alpha, originalScale * alpha);
 			}
 		}
-		super.update(elapsed);
+		super.update(elapsed/2);
 	}
 }
 
@@ -73,7 +73,7 @@ class PhillyGlowGradient extends FlxSprite
 			y = -5000;
 		}
 
-		super.update(elapsed);
+		super.update(elapsed/2);
 	}
 
 	public function bop()

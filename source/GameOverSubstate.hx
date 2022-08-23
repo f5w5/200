@@ -92,7 +92,7 @@ class GameOverSubstate extends MusicBeatSubstate
 	var isFollowingAlready:Bool = false;
 	override function update(elapsed:Float)
 	{
-		super.update(elapsed);
+		super.update(elapsed/2);
 
 		PlayState.instance.callOnLuas('onUpdate', [elapsed]);
 		if(updateCamera) {

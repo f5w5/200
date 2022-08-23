@@ -78,7 +78,7 @@ class MusicBeatSubstate extends FlxSubState
 			stepHit();
 
 
-		super.update(elapsed);
+		super.update(elapsed/2);
 	}
 
 	private function updateCurStep():Void

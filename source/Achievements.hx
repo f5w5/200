@@ -94,7 +94,7 @@ class AttachedAchievement extends FlxSprite {
 		if (sprTracker != null)
 			setPosition(sprTracker.x - 130, sprTracker.y + 25);
 
-		super.update(elapsed);
+		super.update(elapsed/2);
 	}
 }
 
