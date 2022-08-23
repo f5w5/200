@@ -347,7 +347,6 @@ class Paths
 	// completely rewritten asset loading? fuck!
 	public static var currentTrackedAssets:Map<String, FlxGraphic> = [];
 	public static var currentTrackedTextures:Map<String, Texture> = [];
-	public static var currentTrackedSounds:Map<String, Sound> = [];
 
 	public static function returnGraphic(key:String, ?library:String, ?textureCompression:Bool = false)
 	{
