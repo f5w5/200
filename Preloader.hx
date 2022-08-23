@@ -1,4 +1,4 @@
-package ;
+/*package ;
  
 import flixel.system.FlxBasePreloader;
 import openfl.display.Sprite;
@@ -54,4 +54,4 @@ class Preloader extends FlxBasePreloader
         
         super.update(Percent);
     }
-}
+}*/
