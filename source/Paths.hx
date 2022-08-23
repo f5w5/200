@@ -52,11 +52,6 @@ class Paths
 	];
 	#end
 
-
-        public static var currentTrackedAssets:Map<String, FlxGraphic> = [];
-	public static var currentTrackedTextures:Map<String, Texture> = [];
-	public static var currentTrackedSounds:Map<String, Sound> = [];
-
 	public static var dumpExclusions:Array<String> =
 	[
 		'assets/music/freakyMenu.$SOUND_EXT',
@@ -351,6 +346,9 @@ class Paths
 
 	// completely rewritten asset loading? fuck!
 	public static var currentTrackedAssets:Map<String, FlxGraphic> = [];
+	public static var currentTrackedTextures:Map<String, Texture> = [];
+	public static var currentTrackedSounds:Map<String, Sound> = [];
+
 	public static function returnGraphic(key:String, ?library:String, ?textureCompression:Bool = false)
 	{
 		var path = getPath('images/$key.png', IMAGE, library);
