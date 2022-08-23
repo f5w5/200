@@ -246,7 +246,7 @@ class DialogueBox extends FlxSpriteGroup
 			}
 		}
 		
-		super.update(elapsed/2);(elapsed);
+		super.update(elapsed/2);
 	}
 
 	var isEnding:Bool = false;

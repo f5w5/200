@@ -561,7 +561,7 @@ class Controls extends FlxActionSet
 
 	override function update()
 	{
-		super.update(elapsed/2);
+		super.update();
 	}
 
 	// inline
