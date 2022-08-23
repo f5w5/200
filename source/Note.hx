@@ -353,7 +353,7 @@ class Note extends FlxSprite
 
 	override function update(elapsed:Float)
 	{
-		super.update(elapsed/2);
+		super.update(elapsed);
 
 		if (mustPress)
 		{

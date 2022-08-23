@@ -45,7 +45,7 @@ class OutdatedState extends MusicBeatState
 		if(!leftState) {
 			if (controls.ACCEPT) {
 				leftState = true;
-				CoolUtil.browserLoad("https://github.com/jigsaw-4277821/FNF-PsychEngine-Android-Support/actions");
+				CoolUtil.browserLoad("https://github.com/mcagabe19/Psych-Engine-0.5.2h-Testxd/actions");
 			}
 			else if(controls.BACK) {
 				leftState = true;
@@ -61,6 +61,6 @@ class OutdatedState extends MusicBeatState
 				});
 			}
 		}
-		super.update(elapsed/2);
+		super.update(elapsed);
 	}
 }

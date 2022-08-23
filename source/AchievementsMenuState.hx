@@ -80,7 +80,7 @@ class AchievementsMenuState extends MusicBeatState
 	}
 
 	override function update(elapsed:Float) {
-		super.update(elapsed/2);
+		super.update(elapsed);
 
 		if (controls.UI_UP_P) {
 			changeSelection(-1);

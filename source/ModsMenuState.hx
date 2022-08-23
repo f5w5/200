@@ -513,7 +513,7 @@ class ModsMenuState extends MusicBeatState
 			FlxG.sound.play(Paths.sound('scrollMenu'));
 		}
 		updatePosition(elapsed);
-		super.update(elapsed/2);
+		super.update(elapsed);
 	}
 
 	function setAllLabelsOffset(button:FlxButton, x:Float, y:Float)

@@ -310,7 +310,7 @@ class Character extends FlxSprite
 				playAnim(animation.curAnim.name + '-loop');
 			}
 		}
-		super.update(elapsed/2);
+		super.update(elapsed);
 	}
 
 	public var danced:Bool = false;

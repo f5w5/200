@@ -32,7 +32,7 @@ class AttachedSprite extends FlxSprite
 
 	override function update(elapsed:Float)
 	{
-		super.update(elapsed/2);
+		super.update(elapsed);
 
 		if (sprTracker != null) {
 			setPosition(sprTracker.x + xAdd, sprTracker.y + yAdd);

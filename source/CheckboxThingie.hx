@@ -35,7 +35,7 @@ class CheckboxThingie extends FlxSprite
 				alpha = sprTracker.alpha;
 			}
 		}
-		super.update(elapsed/2);
+		super.update(elapsed);
 	}
 
 	private function set_daValue(check:Bool):Bool {

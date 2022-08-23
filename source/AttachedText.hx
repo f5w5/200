@@ -28,6 +28,6 @@ class AttachedText extends Alphabet
 			}
 		}
 
-		super.update(elapsed/2);
+		super.update(elapsed);
 	}
 }

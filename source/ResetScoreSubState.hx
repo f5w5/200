@@ -116,7 +116,7 @@ class ResetScoreSubState extends MusicBeatSubstate
                         close();
                         #end
 		}
-		super.update(elapsed/2);
+		super.update(elapsed);
 	}
 
 	function updateOptions() {

@@ -272,7 +272,7 @@ class StoryMenuState extends MusicBeatState
 			MusicBeatState.switchState(new MainMenuState());
 		}
 
-		super.update(elapsed/2);
+		super.update(elapsed);
 
 		grpLocks.forEach(function(lock:FlxSprite)
 		{

@@ -246,7 +246,7 @@ class CreditsState extends MusicBeatState
 				}
 			}
 		}
-		super.update(elapsed/2);
+		super.update(elapsed);
 	}
 
 	var moveTween:FlxTween = null;
