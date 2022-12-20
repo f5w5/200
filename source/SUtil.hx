@@ -201,7 +201,7 @@ class SUtil
 		}
 		#if android
 		catch (e:Dynamic)
-		Toast.makeText("Error!\nClouldn't copy the file because:\n" + e, ToastType.LENGTH_LONG);
+		Toast.makeText("Error!\nClouldn't copy the file because:\n" + e, Toast.LENGTH_LONG);
 		#end
 	}
 }
